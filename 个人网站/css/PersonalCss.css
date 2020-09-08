@@ -1,0 +1,52 @@
+.w{
+	width: 1280px;
+}
+body{
+	background: url(../img/Background2.jpg);
+	background-size: 100% auto;
+}
+.reTurn{
+	height: 100px;
+}
+.reTurn a{
+	display: block;
+	float: right;
+	margin-top: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 100px;
+	background-color: #D5EAF9;
+	border-radius:10px ;
+}
+.inTop{
+	position: relative;
+	height: 300px;
+	border-bottom: 1px solid #87CEEB;
+}
+.inBottom{
+	height: 150px;
+	border: 1px solid dimgray;
+}
+.inTops{
+	position: absolute;
+	top: 120px;
+	left: 200px;
+}
+.inTops h1{
+
+	color: white;
+}
+.inTop p{
+		margin-top: 20px;
+	color: white;
+	font-size: 25px;
+}
+.inTop span{
+	color: #87CEEB;
+	font-size: 25px;
+}
+.inBottom p{
+	font-size:40px ;
+	color: aquamarine;
+}
