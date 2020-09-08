@@ -1,0 +1,20 @@
+body{
+	background: url(../images/bg1.jpg) no-repeat;
+	background-size: 100%;
+/* 	position: relative; */
+}
+.colorfonthe{
+	color: #3EEBDF;
+}
+.fontcolor{
+	color: white;
+}
+.footer{
+	text-align: center;
+}
+.pics{
+	width: 180px;
+	height: 180px;
+	float: right;
+	margin-top: 20px;
+}

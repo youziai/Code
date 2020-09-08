@@ -1,0 +1,125 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+section {
+    display: block;
+}
+
+/* 无序列表去黑点 */
+li{
+	list-style-type:none;
+}
+
+p,h3,h4 {
+	color: #fff;
+}
+
+h2{
+	font-size: 36px;
+	font-family: 'robotobold';
+	color: #6fd9ef;
+	/* text-shadow: 0 0 30px; */
+	letter-spacing: 3px;
+	text-indent:3em;
+}
+/* 页面 */
+.page-section {
+    padding-top: 120px;
+}
+
+.page-heading {
+    margin-bottom: 100px;
+}
+
+.page-title {
+    font-size: 20px;
+    font-family: 'robotobold';
+    margin-bottom: 7px;
+}
+
+.page-subtitle {
+	padding-top: 10px;
+    font-size: 14px;
+    font-family: 'robotolight';
+}
+.page-icon-a {
+    text-align: right;
+}
+
+/* 右侧图标 */
+.page-icon {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: #66d9ef;
+    color: #fff;
+    display: inline-block;
+}
+
+#about {
+    background-image: url(../images/12.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#about p {
+    font-size: 14px;
+	margin-bottom: 5px;
+}
+
+#about h4 {
+    font-size: 18px;
+    font-family: 'robotobold';
+    margin-bottom: 15px;
+}
+
+/* 概述,图片与简介 */
+.profile-image {
+    overflow: hidden; /*  溢出元素框裁剪 图片*/
+    margin-bottom: 30px;
+}
+
+.profile-image img {
+    width: 100%;
+    display: block;
+}
+
+.profile-content {
+    margin-bottom: 40px;
+}
+
+.profile-content span {
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* 能力介绍 */
+.my-skills {
+    margin-bottom: 120px;
+}
+ 
+ /* 进度条 */
+.progess-bars {
+    margin-top: 30px;
+}
+
+.progess-bars span {
+	text-indent: 2em;  /* 无效果 */
+    font-size: 12px;
+	color: #fff;
+}
+
+.class {
+    height: 14px;
+    background: #fff;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background: #66d9ef;
+}

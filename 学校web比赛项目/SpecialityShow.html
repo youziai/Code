@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- 	 -->
+    <title>专业介绍</title>
+    <style>
+		ul li{
+			list-style: none;
+		}
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .big {
+            height: 950px;
+            margin: 0 auto;
+            background-image: url(images/img6.png);
+			background-size: 100%;
+            background-repeat: no-repeat;
+            background-repeat: repeat;
+            background-attachment: fixed;
+
+        }
+
+        header {
+            height: 7rem;
+            background-image: url(images/head.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            text-align: center;
+            line-height: 6rem;
+        }
+
+        .hezi1 {
+            height: 160px;
+            margin: 0 auto;
+            
+        }
+
+        .hezi2 {
+            height: 560px;
+            margin: 0 auto;
+        }
+
+        .bkzy {
+
+            float: left;
+            margin-top: 80px;
+            margin-left: 25px;
+            position: relative;
+            height: 55px;
+            width: 200px;
+            padding: 0 0 15px 35px;
+            border: 1px solid rgba(25, 186, 139, 0.17);
+            background: url(line\(1\).png) rgba(255, 255, 255, 0.03);
+        }
+
+        .bkzy::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .bkzy::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .bkzy-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .bkzy-footer::before {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .bkzy-footer::after {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+
+        .zkzy {
+            float: right;
+            margin-top: 80px;
+            margin-right: 25px;
+            position: relative;
+            height: 55px;
+            width: 200px;
+            padding: 0 0 15px 35px;
+            border: 1px solid rgba(25, 186, 139, 0.17);
+            background: url(line\(1\).png) rgba(255, 255, 255, 0.03);
+        }
+
+        .zkzy::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .zkzy::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .zkzy-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .zkzy-footer::before {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .zkzy-footer::after {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+		.logo{
+			background: url(images/xy.png) no-repeat center;
+			background-size: 85%;
+			margin: 0 auto;
+			width: 640px;
+			height: 640px;	
+		/* 	border: 1px solid #262626; */
+			/* background-color: pink; */
+		}
+
+        .b {
+            float: left;
+            margin-top: 80px;
+            margin-left: 25px;
+            position: relative;
+            height: 500px;
+            width: 300px;
+            padding: 0 0 15px 40px;
+            border: 1px solid rgba(25, 186, 139, 0.17);
+            background: url(line\(1\).png) rgba(255, 255, 255, 0.03);
+        }
+
+        .b::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .b::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .b-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .b-footer::before {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .b-footer::after {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+
+        .d {
+            display: block;
+            float: right;
+            margin-top: 80px;
+            margin-right: 25px;
+         /*   position: relative; */
+            height: 500px;
+            width: 300px;
+            padding: 0 0 15px 40px;
+            border: 1px solid rgba(25, 186, 139, 0.17);
+            background: url(line\(1\).png) rgba(255, 255, 255, 0.03);
+        }
+
+        .d::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .d::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .d-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .d-footer::before {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .d-footer::after {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .jianjie {
+            position: relative;
+            height: 100px;
+            width: 1000px;
+            margin: 0 0 50px 50px;
+            padding: 20px 20px 10px 20px;
+            border: 1px solid rgba(25, 186, 139, 0.17);
+            background: url(line\(1\).png) rgba(255, 255, 255, 0.03);
+        }
+
+        .jianjie::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .jianjie::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .jianjie-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .jianjie-footer::before {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .jianjie-footer::after {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .kecheng {
+            position: relative;
+            height: 100px;
+            width: 1000px;
+            margin: 0 0 50px 50px;
+            padding: 20px 20px 50px 25px;
+            border: 1px solid rgba(25, 186, 139, 0.17);
+            background: url(line\(1\).png) rgba(255, 255, 255, 0.03);
+        }
+
+        .kecheng::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .kecheng::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-top: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .kecheng-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .kecheng-footer::before {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .kecheng-footer::after {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-right: 2px solid #02a6b5;
+            border-bottom: 2px solid #02a6b5;
+            content: "";
+        }
+
+        .t {
+            float: left;
+            margin-left: 260px;
+            position: relative;
+            height: 624px;
+            width: 600px;
+            padding: 0 0 15px 40px;
+            border: 0 solid rgba(25, 186, 139, 0.17);
+            background: url(xy.png);
+        }
+
+        .b a {
+            display: block;
+            font-size: 30px;
+            color: #ffffff;
+            text-decoration: none;
+            line-height: 50px;
+            margin: 55px 55px 0 0;
+            text-align: center;
+        }
+
+        .d a {
+            display: block;
+            font-size: 30px;
+            color: #ffffff;
+            text-decoration: none;
+            line-height: 50px;
+            margin: 40px 40px 0 0;
+            text-align: center;
+
+
+        }
+
+        .b a:hover {
+           /* padding: 10px 10px 10px 10px; */
+            background-color: rgba(255, 235, 205, 0.123);
+        }
+
+        .d a:hover {
+        /*    padding: 10px 10px 10px 10px; */
+            background-color: rgba(255, 235, 205, 0.123);
+        }
+
+        h3 {
+            font-size: 40px;
+            color: #5555ff;
+            padding: 10px 0 30px 0;
+        }
+
+        .hezi3 {
+            margin: 0 auto;
+            background-image: url(images/img1.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+			background-position: right;
+        }
+
+        .hezi3 h1 {
+            font-size: 70px;
+            color: #5555ff;
+            line-height: 150px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 25px;
+            color: #ffffff;
+            line-height: 40px;
+            margin: 30px 0 0 0;
+        }
+
+        h2 {
+            font-size: 45px;
+            color: #5555ff;
+            line-height: 90px;
+            margin: 0 0 0 50px;
+        }
+
+        .kecheng {
+            height: 250px;
+            width: 1000px;
+            margin: 0 0 0 50px;
+        }
+
+        .jianjie {
+            height: 250px;
+            width: 1000px;
+            margin: 0 0 0 50px;
+        }
+		.gotop{
+			display: block;
+			background-color: #02A6B5;
+			width: 100px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			margin-top: 100px;
+			float: right;
+			text-decoration: none;
+		}
+    </style>
+</head>
+
+<body>
+<!-- 	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="la"></div>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="down">
+					<span class="caret"></span></a></li>
+				<li><a href="SpecialityShow.html" target="_blank">专业介绍</a></li>
+				<li><a href="LearningRoute.html" target="_blank">学习路线</a></li>
+				<li><a href="StudentShow.html" target="_blank">优秀学生展示</a></li>
+				<li><a href="Dateshow.html" target="_blank">数据展示</a></li>
+				<li><a href="AboutWe.html" target="_blank">关于我们</a></li>
+			</ul>
+		</div>
+		</div>
+			
+	</nav> -->
+
+    <div class="big">
+        <header>
+            <h1>软件工程学院专业介绍</h1>
+        </header>
+
+        <div class="hezi1">
+
+            <div class="bkzy">
+                <div class="bkzy-footer"></div>
+                <h3>本科专业</h3>
+            </div>
+
+            <div class="zkzy">
+                <div class="zkzy-footer"></div>
+                <h3>专科专业</h3>
+            </div>
+
+        </div>
+
+        <div class="hezi2">
+
+            <div class="b">
+                <div class="b-footer"></div>
+				<ul>
+					<li><a href="#ruan">软件工程</a></li>
+					<li><a href="#zhi">智能控制技术</a></li>
+					<li> <a href="#ji">计算机应用工程</a></li>
+					<li><a href="#da">大数据技术与应用</a></li>
+				</ul>
+           <!--     <a href="#ruan">软件工程</a>
+                <a href="#zhi">智能控制技术</a>
+                <a href="#ji">计算机应用工程</a>
+                <a href="#da">大数据技术与应用</a> -->
+
+            </div>
+
+            <div class="d">
+                <div class="d-footer"></div>
+				<ul>
+					<li><a href="#jian">软件技术</a></li>
+					<li><a href="#qian">嵌入式技术与应用</a></li>
+					<li> <a href="#ren">人工智能技术服务</a></li>
+					<li>  <a href="#gong">工业机器人技术</a></li>
+					<li><a href="#da">大数据技术与应用</a></li>
+				</ul>
+               <!-- <a href="#jian">软件技术</a>
+                <a href="#qian">嵌入式技术与应用</a>
+                <a href="#ren">人工智能技术服务</a>
+                <a href="#gong">工业机器人技术</a>
+                <a href="#shu">大数据技术与应用</a> -->
+            </div>
+           <div class="logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="hezi3">
+        <h1 id="ruan"> 软件工程</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p>软件工程（Software Engineering）是一门研究用工程化方法构建和维护有效的、实用的和高质量的软件的学科，它涉及程序设计语言、数据库、软件开发工具、系统平台、标准、设计模式等多方面。
+                现代社会，软件几乎应用于各个行业，如工业、农业、银行、航空、政府部门等，这些应用促进了经济和社会的发展，使得人们的工作效率和生活效率得以提高。典型的软件有电子邮件、嵌入式系统、人机界面、办公套件、操作系统、编译器、数据库、游戏等。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p>程序设计基础、计算机组成原理、操作系统、数据库管理系统应用、现代编译原理、面向对象程序与设计（JAVA）、数据结构与算法设计、软件需求分析、软件工程、软件测试、Python智能程序设计、SSM框架技术与WEB项目实训、软件工程项目管理等。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h1 id="zhi"> 智能控制技术</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p>本专业面向智能控制，自动化控制，人工智能及相关专业，培养具有良好的职业道德、较高的职业素质、实践能力、就业能力、创新创业能力以及可持续发展能力，掌握智能控制技术的专业技能，能从事智能化电气元件、智能化设备及其生产线的设计、制造、安装调试、运行维护和管理的高级技术应用型、技术技能型和复合型人才。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p>单片机原理及应用、信息科学技术概论、C语言程序设计、智能科学技术导论、数字逻辑、计算机硬件工艺实习、数据库系统原理，操作系统原理，人工智能原理，智能信息处理，高级语言程序设计，计算机网络等。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h1 id="ji">计算机应用工程</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p>计算机应用是一种由计算机科学与其他学科相结合的边缘学科，是计算机科学的组成部分。计算机应用研究计算机应用于各个领域的理论、方法、技术和系统等，其目的是对在社会活动中如何参与和实施给予方针指导的活动。
+                计算机应用分为数值计算和非数值应用两大领域。非数值应用又包括数据处理、知识处理 ，例如信息系统、工厂自动化、办公室自动化、机器翻译等领域。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p>C语言程序设计、数据结构、JAVA与面向对象程序设计、MYSQL数据库程序设计、WEB前端基础、PHTOTSHOP、计算机应用基础、JAVASCRIPT、AJAX、前端框架一（Jquery&BootStrap）、前端框架二（node.js/react.js/angular.js）、平面设计、网页设计、APP设计。
+       <a href="#" class="gotop">返回顶部</a>
+		</div>
+
+        <h1 id="da"> 大数据技术与应用</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p> 大数据就是一种规模大到在获取、管理、分析方面大大超出传统数据库软件工具能力范围的数据集合。它的运用场景相当广泛，拥有极强的行业渗透性。随着大数据应用范围的不断扩大，大数据所形成的价值正在快速提升。这是一个当之无愧的朝阳行业。主要包括互联网、软件及信息技术服务业、计算机、高端制造等行业。产业链十分完善。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p> Python编程、线性代数、概率与数理统计、大数据HADOOP、C语言程序设计、Linux基础、MYSQL数据库技术、数据可视化、计算机硬件工艺、
+                物联网技术开发、No-SQL数据库技术、Spark大数据快速运算、云计算技术、Oozie大数据工作流、Storm、计算机网络、数据结构与算法等。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h1 id="jian"> 软件技术</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p>软件技术专业是计算机科学的一个分支，和软件科学与技术专业相比较，软件技术专业的侧重点在开发和技术的实际应用，而对软件开发的理论要求没有那么高，计算机软件在现代社会经济生活中占有极其重要的地位，在各个领域中发挥着越来越重要的作用，该专业毕业的学生拥有庞大的就业市场，具有广阔的就业前景。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p>
+                Python程序设计、数据库设计基础（MySQL)、Redis、PHOTOSHOP、HTML5和CSS、Javascript、前端框架、Python自动化办公与数据分析、Scrapy框架、Django框架、Flask框架、Java常用框架、Spring+MyBatis企业应用实战，软件测试基础，接口测试，自动化测试，性能测试，平面设计、网页设计、APP设计，影视制作、计算机网络基础、5G移动通信技术、Linux服务器配置与自动化管理、无线网络优化等课程。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h1 id="qian"> 嵌入式技术与应用</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p> 本专业针对嵌入式技术应用领域、初级研发工程师、技术支持工程师、嵌入式技术应用型人才梯队及从事嵌入式产品设计开发工作等工作岗位群，培养学生参与嵌入式软件开发、软/硬件测试、系统维护等方面的技能，旨在为社会提供嵌入式软件开发、产品测试、技术支持等方面的高技能型人才。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p>
+                程序设计基础(C)、C++程序设计、数据结构(C) 、ARM体系结构与编程、LINUX下C语言编程、QT程序设计、嵌入式LINUX系统移植、嵌入式驱动开发、模拟与数字电路、汇编语言、程序设计等课程。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+        <h1 id="ren"> 人工智能技术服务</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p>人工智能技术服务是普通高等学校专科专业，属于计算机类专业，是《普通高等学校高等职业教育（专科）专业目录》2019年增补专业。本专业培养掌握人工智能基础专业理论知识、应用技术，具备人工智能技术应用开发、系统管理与维护等能力，从事人工智能相关的应用开发、系统集成与运维、产品销售与咨询、售前售后技术支持等工作的高素质技术技能人才。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p>
+                java程序设计、数据处理技术、Python数据分析、网络爬虫与数据采集、商业智能可视化开发、计算机视觉项目实践、自然语言处理项目实践、智能系统设计与开发。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h1 id="gong"> 工业机器人技术</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p>工业机器人技术是普通高等学校专科专业，属于自动化类专业。本专业培养德、智、体、美全面发展，具有良好职业道德和人文素养，掌握机械制图、机械设计、电工与电子、电气控制、液压与气动、PLC应用技术、工业机器人应用技术等基本知识，具备工业机器人系统应用能力，从事工业机器人及工作站系统的安装与调试、维护与维修、技术与生产管理、服务与营销等工作的高素质技术技能人才。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p>
+                工业机器人技术基础、工业机器人现场编程与调试、工业机器人离线编程与仿真、工业机器人系统维护与保养项目教程、工业机器人系统集成项目教程、工业机器人典型应用案例项目教程等。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h1 id="shu"> 大数据技术与应用</h1>
+        <h2>简介</h2>
+        <div class="jianjie">
+            <div class="jianjie-footer"></div>
+            <p> 大数据就是一种规模大到在获取、管理、分析方面大大超出传统数据库软件工具能力范围的数据集合。它的运用场景相当广泛，拥有极强的行业渗透性。随着大数据应用范围的不断扩大，大数据所形成的价值正在快速提升。这是一个当之无愧的朝阳行业。主要包括互联网、软件及信息技术服务业、计算机、高端制造等行业。产业链十分完善。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+
+        <h2>主要课程</h2>
+        <div class="kecheng">
+            <div class="kecheng-footer"></div>
+            <p> 程序设计基础(C)、java程序设计、JSP程序设计、
+                PHP程序设计、ASP.NET程序设计、数据库管理（ORACLE）、SSH框架技术应用、Linux操作系统、Python程序设计、网络爬虫与数据收集、开源大数据核心技术、数据仓库理论与实践。
+            </p>
+			<a href="#" class="gotop">返回顶部</a>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>导航</title>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+			<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+			}
+             body
+               {
+	              font-size: 15px;
+				  font-family: "blackadder itc";
+				/*  background-image: url(images/bgmain.png); */
+				  background-size: 100% 100%;
+				  background-repeat: no-repeat;
+			}
+			.la
+			{
+				width: 300px;
+				height: 58px;
+				background-image: url(images/banner.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				margin-top: 10px;
+			}
+			.nav
+			{	
+				height: 80px;
+			     float: right;
+			}
+			.nav li{
+				height: 80px;
+			}
+			.nav li a{
+				font-size: 20px;
+				padding: 0 30px!important;
+				line-height: 80px;
+			}
+			video{
+			          position: fixed;
+			          right:0;
+			          bottom: 0;
+			          min-width: 100%;
+			          min-height: 100%;
+			          width: auto;
+			          height: auto;
+			          z-index: -9999;
+			          /*灰色调*/
+			          /*-webkit-filter:grayscale(100%)*/
+			 
+			      }
+		</style>
+	</head>
+	<body>
+		
+		<nav class="navbar navbar-inverse navbar-fixed-top>
+			<div class=" container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="la"></div>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="down">
+						<span class="caret"></span></a></li>
+					<li><a href="SpecialityShow.html" target="_blank">专业介绍</a></li>
+					<li><a href="LearningRoute.html" target="_blank">学习路线</a></li>
+					<!-- <li><a href="#">前后端区别</a></li> -->
+					<!-- <li><a href="#">就业分析</a></li> -->
+					<li><a href="StudentShow.html" target="_blank">优秀学生展示</a></li>
+					<li><a href="Dateshow.html" target="_blank">数据展示</a></li>
+					<li><a href="AboutWe.html" target="_blank">关于我们</a></li>
+				</ul>
+			</div>
+			<video id="v1" autoplay loop style="width: 100%">
+			    <source  src="mp4/bgvedio.MP4">
+			</video>
+			</div>
+		</nav>
+	</body>
+</html>
